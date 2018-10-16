@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSCultureFinanceProductDetailViewController">
+            <connections>
+                <outlet property="collection" destination="v8Z-KG-cHt" id="lem-E2-xv8"/>
+                <outlet property="lowView" destination="Gfe-Ab-dJX" id="el9-yp-ZcR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yuetan" destination="Pof-7W-KeH" id="GsK-Th-IXr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXI-BO-PHN">
+                    <rect key="frame" x="0.0" y="513" width="320" height="55"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gfe-Ab-dJX">
+                            <rect key="frame" x="0.0" y="6" width="320" height="49"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pof-7W-KeH">
+                                    <rect key="frame" x="0.0" y="0.0" width="160" height="49"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="20" maxY="-7"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="-16" maxX="0.0" maxY="-5"/>
+                                    <state key="normal" title="约谈" image="约谈">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="appointmentBtnAction:" destination="-1" eventType="touchUpInside" id="UQP-rp-PGp"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8Z-KG-cHt">
+                                    <rect key="frame" x="160" y="0.0" width="160" height="49"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="5" maxY="-9"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="-16" maxX="-30" maxY="-5"/>
+                                    <state key="normal" title="收藏10次" image="未收藏">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected" image="已收藏"/>
+                                    <connections>
+                                        <action selector="collectionAction:" destination="-1" eventType="touchUpInside" id="mQs-jE-S8S"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.1960784314" green="0.58823529409999997" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="0Zo-Hk-LKt"/>
+                                <constraint firstItem="Pof-7W-KeH" firstAttribute="top" secondItem="Gfe-Ab-dJX" secondAttribute="top" id="8B9-b5-bdv"/>
+                                <constraint firstItem="Pof-7W-KeH" firstAttribute="width" secondItem="v8Z-KG-cHt" secondAttribute="width" id="ReB-VQ-6dw"/>
+                                <constraint firstItem="v8Z-KG-cHt" firstAttribute="top" secondItem="Gfe-Ab-dJX" secondAttribute="top" id="djI-vK-gMP"/>
+                                <constraint firstItem="v8Z-KG-cHt" firstAttribute="leading" secondItem="Pof-7W-KeH" secondAttribute="trailing" id="oMD-2m-za3"/>
+                                <constraint firstAttribute="trailing" secondItem="v8Z-KG-cHt" secondAttribute="trailing" id="pjB-CS-GHU"/>
+                                <constraint firstItem="Pof-7W-KeH" firstAttribute="leading" secondItem="Gfe-Ab-dJX" secondAttribute="leading" id="rgZ-wV-yyc"/>
+                                <constraint firstAttribute="bottom" secondItem="v8Z-KG-cHt" secondAttribute="bottom" id="u81-Ek-G7X"/>
+                                <constraint firstAttribute="bottom" secondItem="Pof-7W-KeH" secondAttribute="bottom" id="vuZ-eC-auV"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Gfe-Ab-dJX" secondAttribute="trailing" id="0E7-gh-Os2"/>
+                        <constraint firstItem="Gfe-Ab-dJX" firstAttribute="leading" secondItem="HXI-BO-PHN" secondAttribute="leading" id="O4K-0i-lAd"/>
+                        <constraint firstAttribute="height" constant="55" id="TTa-yn-GsO"/>
+                        <constraint firstAttribute="bottom" secondItem="Gfe-Ab-dJX" secondAttribute="bottom" id="x3V-IB-a1k"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HXI-BO-PHN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SIm-Ht-6rZ"/>
+                <constraint firstAttribute="trailing" secondItem="HXI-BO-PHN" secondAttribute="trailing" id="dIN-mt-qig"/>
+                <constraint firstAttribute="bottom" secondItem="HXI-BO-PHN" secondAttribute="bottom" id="eDa-dx-fKL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="184" y="236"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="已收藏" width="22" height="21"/>
+        <image name="未收藏" width="22" height="21"/>
+        <image name="约谈" width="21" height="20"/>
+    </resources>
+</document>

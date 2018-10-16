@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="LSCultureFinanceDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbO-dd-pvP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-bE-Wdt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MjH-nu-k5O">
+                                        <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="WKQ-0X-Gu8"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSf-4C-L7S">
+                                        <rect key="frame" x="0.0" y="10" width="4" height="20"/>
+                                        <color key="backgroundColor" red="0.1960784314" green="0.58823529409999997" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="4" id="6PK-hV-U1k"/>
+                                            <constraint firstAttribute="height" constant="20" id="IDk-bR-Kio"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="项目概述" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hN-0q-1J2">
+                                        <rect key="frame" x="12" y="10" width="64" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.1960784314" green="0.58823529409999997" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="MjH-nu-k5O" firstAttribute="leading" secondItem="Fec-bE-Wdt" secondAttribute="leading" id="NLE-4s-Shr"/>
+                                    <constraint firstItem="wSf-4C-L7S" firstAttribute="centerY" secondItem="Fec-bE-Wdt" secondAttribute="centerY" id="OXR-yM-OmS"/>
+                                    <constraint firstItem="wSf-4C-L7S" firstAttribute="leading" secondItem="Fec-bE-Wdt" secondAttribute="leading" id="RZ3-WV-Gyj"/>
+                                    <constraint firstAttribute="bottom" secondItem="MjH-nu-k5O" secondAttribute="bottom" id="SLP-ks-ogd"/>
+                                    <constraint firstItem="7hN-0q-1J2" firstAttribute="leading" secondItem="wSf-4C-L7S" secondAttribute="trailing" constant="8" id="SZb-Pb-HDb"/>
+                                    <constraint firstAttribute="trailing" secondItem="MjH-nu-k5O" secondAttribute="trailing" id="eud-kl-Hl3"/>
+                                    <constraint firstAttribute="height" constant="40" id="xqs-ek-kRl"/>
+                                    <constraint firstItem="7hN-0q-1J2" firstAttribute="centerY" secondItem="Fec-bE-Wdt" secondAttribute="centerY" id="zkr-eG-pXg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2vj-xu-tre">
+                                <rect key="frame" x="0.0" y="96" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="TI1-T3-mlJ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述，项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述项目概述" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEL-35-5k8">
+                                <rect key="frame" x="10" y="50" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fec-bE-Wdt" firstAttribute="leading" secondItem="mbO-dd-pvP" secondAttribute="leading" id="AdL-u6-xkg"/>
+                            <constraint firstItem="2vj-xu-tre" firstAttribute="top" secondItem="SEL-35-5k8" secondAttribute="bottom" constant="16" id="Huh-CB-uct"/>
+                            <constraint firstItem="2vj-xu-tre" firstAttribute="leading" secondItem="mbO-dd-pvP" secondAttribute="leading" id="JzU-Sl-zBU"/>
+                            <constraint firstAttribute="trailing" secondItem="SEL-35-5k8" secondAttribute="trailing" constant="10" id="N2K-m0-Gcw"/>
+                            <constraint firstAttribute="trailing" secondItem="2vj-xu-tre" secondAttribute="trailing" id="Tgx-fl-BGC"/>
+                            <constraint firstItem="Fec-bE-Wdt" firstAttribute="top" secondItem="mbO-dd-pvP" secondAttribute="top" id="ZZP-eY-0Ns"/>
+                            <constraint firstAttribute="bottom" secondItem="2vj-xu-tre" secondAttribute="bottom" id="bx3-Ie-cN6"/>
+                            <constraint firstItem="SEL-35-5k8" firstAttribute="leading" secondItem="mbO-dd-pvP" secondAttribute="leading" constant="10" id="dNp-s5-Ota"/>
+                            <constraint firstAttribute="trailing" secondItem="Fec-bE-Wdt" secondAttribute="trailing" id="eyU-fM-NVL"/>
+                            <constraint firstItem="SEL-35-5k8" firstAttribute="top" secondItem="Fec-bE-Wdt" secondAttribute="bottom" constant="10" id="vZb-vz-Uim"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mbO-dd-pvP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="50y-zm-Idi"/>
+                    <constraint firstItem="mbO-dd-pvP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PGo-r7-SbH"/>
+                    <constraint firstAttribute="bottom" secondItem="mbO-dd-pvP" secondAttribute="bottom" constant="10" id="Q1i-RV-D8Z"/>
+                    <constraint firstAttribute="trailing" secondItem="mbO-dd-pvP" secondAttribute="trailing" id="Tlz-Gh-ed7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="contentLabel" destination="SEL-35-5k8" id="dw1-eG-0rB"/>
+                <outlet property="nameLabel" destination="7hN-0q-1J2" id="HPj-Tf-19f"/>
+            </connections>
+            <point key="canvasLocation" x="209" y="245.5"/>
+        </tableViewCell>
+    </objects>
+</document>

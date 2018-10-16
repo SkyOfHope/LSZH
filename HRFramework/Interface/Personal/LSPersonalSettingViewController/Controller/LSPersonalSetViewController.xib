@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSPersonalSetViewController">
+            <connections>
+                <outlet property="myCustomTableView" destination="DJy-9W-qrg" id="uvf-PV-Aou"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DJy-9W-qrg">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="429"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="1Z3-Bu-nfM"/>
+                        <outlet property="delegate" destination="-1" id="E3N-5R-ydB"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVQ-cb-Dw3">
+                    <rect key="frame" x="10" y="494" width="300" height="44"/>
+                    <color key="backgroundColor" red="0.41176470588235292" green="0.70196078431372544" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="rMU-Wc-wxc"/>
+                    </constraints>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="IVQ-cb-Dw3" secondAttribute="trailing" constant="10" id="1K2-fJ-oDQ"/>
+                <constraint firstItem="DJy-9W-qrg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="257-ao-mRX"/>
+                <constraint firstItem="IVQ-cb-Dw3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="GJ3-En-U7M"/>
+                <constraint firstAttribute="trailing" secondItem="DJy-9W-qrg" secondAttribute="trailing" id="L1a-be-6gq"/>
+                <constraint firstAttribute="bottom" secondItem="IVQ-cb-Dw3" secondAttribute="bottom" constant="30" id="bI8-Es-rZA"/>
+                <constraint firstAttribute="bottom" secondItem="DJy-9W-qrg" secondAttribute="bottom" id="n0G-Ni-7ty"/>
+                <constraint firstItem="DJy-9W-qrg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xDA-wH-KQT"/>
+                <constraint firstAttribute="bottom" secondItem="DJy-9W-qrg" secondAttribute="bottom" constant="139" id="xgq-FN-7Zy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="n0G-Ni-7ty"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="37" y="116"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSNeedOfficeRentDetaiViewController">
+            <connections>
+                <outlet property="collection" destination="pCZ-TW-5Pa" id="BX4-VG-Ew4"/>
+                <outlet property="lowView" destination="mwm-yz-l0R" id="aSK-9m-H6G"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yuetan" destination="Pkr-cS-VjN" id="5za-7b-kpf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwm-yz-l0R">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkr-cS-VjN">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <inset key="titleEdgeInsets" minX="-16" minY="13" maxX="16" maxY="-13"/>
+                            <inset key="imageEdgeInsets" minX="5" minY="-16" maxX="-5" maxY="-5"/>
+                            <state key="normal" title="约谈" image="约谈">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="appointmentBtn:" destination="-1" eventType="touchUpInside" id="kMM-o6-Nsp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCZ-TW-5Pa">
+                            <rect key="frame" x="160" y="0.0" width="160" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="30" maxY="-9"/>
+                            <inset key="imageEdgeInsets" minX="3" minY="-16" maxX="-5" maxY="-5"/>
+                            <state key="normal" title="收藏10次" image="未收藏">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="已收藏"/>
+                            <connections>
+                                <action selector="collectionAction:" destination="-1" eventType="touchUpInside" id="R5e-dV-qds"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1960784314" green="0.58823529409999997" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="pCZ-TW-5Pa" secondAttribute="trailing" id="0LD-8h-nr8"/>
+                        <constraint firstItem="Pkr-cS-VjN" firstAttribute="top" secondItem="mwm-yz-l0R" secondAttribute="top" id="6sC-ND-7lm"/>
+                        <constraint firstAttribute="height" constant="49" id="8Tp-OM-gCr"/>
+                        <constraint firstAttribute="bottom" secondItem="pCZ-TW-5Pa" secondAttribute="bottom" id="JM6-Wu-4fh"/>
+                        <constraint firstAttribute="bottom" secondItem="Pkr-cS-VjN" secondAttribute="bottom" id="N3O-ef-SCw"/>
+                        <constraint firstItem="Pkr-cS-VjN" firstAttribute="width" secondItem="pCZ-TW-5Pa" secondAttribute="width" id="TdT-Gn-A80"/>
+                        <constraint firstItem="pCZ-TW-5Pa" firstAttribute="top" secondItem="mwm-yz-l0R" secondAttribute="top" id="Wuf-09-fBx"/>
+                        <constraint firstItem="Pkr-cS-VjN" firstAttribute="leading" secondItem="mwm-yz-l0R" secondAttribute="leading" id="aF7-Fd-ezp"/>
+                        <constraint firstItem="pCZ-TW-5Pa" firstAttribute="leading" secondItem="Pkr-cS-VjN" secondAttribute="trailing" id="jVW-1f-nfk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="mwm-yz-l0R" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EJH-Hu-1I4"/>
+                <constraint firstAttribute="bottom" secondItem="mwm-yz-l0R" secondAttribute="bottom" id="UTb-G4-i57"/>
+                <constraint firstAttribute="trailing" secondItem="mwm-yz-l0R" secondAttribute="trailing" id="cXs-zw-RrX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="182" y="226"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="已收藏" width="22" height="21"/>
+        <image name="未收藏" width="22" height="21"/>
+        <image name="约谈" width="21" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSReleaseViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WfP-C6-i5G">
+                    <rect key="frame" x="0.0" y="114" width="320" height="290"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfG-1C-2kA">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="发布融资需求信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QK3-QN-LWr">
+                                    <rect key="frame" x="28" y="107" width="104" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FN1-aP-DXT">
+                                    <rect key="frame" x="45" y="24" width="70" height="70"/>
+                                    <state key="normal" image="融资需求-蓝色"/>
+                                    <state key="selected" image="融资需求-白色"/>
+                                    <connections>
+                                        <action selector="publishInformation:" destination="-1" eventType="touchUpInside" id="PEr-Zd-zO6"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="QK3-QN-LWr" firstAttribute="top" secondItem="FN1-aP-DXT" secondAttribute="bottom" constant="13" id="2kA-xb-XnV"/>
+                                <constraint firstItem="FN1-aP-DXT" firstAttribute="centerX" secondItem="pfG-1C-2kA" secondAttribute="centerX" id="O9R-QT-vHr"/>
+                                <constraint firstItem="FN1-aP-DXT" firstAttribute="centerY" secondItem="pfG-1C-2kA" secondAttribute="centerY" constant="-13" id="YPc-fz-7AL"/>
+                                <constraint firstItem="QK3-QN-LWr" firstAttribute="centerX" secondItem="FN1-aP-DXT" secondAttribute="centerX" id="aiC-X5-bTq"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqA-l3-4d8">
+                            <rect key="frame" x="160" y="0.0" width="160" height="145"/>
+                            <subviews>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRG-Bd-DTk">
+                                    <rect key="frame" x="45" y="24" width="70" height="70"/>
+                                    <state key="normal" image="金融产品蓝色"/>
+                                    <state key="selected" image="金融产品白色"/>
+                                    <connections>
+                                        <action selector="publishInformation:" destination="-1" eventType="touchUpInside" id="cjM-SN-phj"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布金融产品信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGX-y9-rrj">
+                                    <rect key="frame" x="28" y="107" width="104" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="vGX-y9-rrj" firstAttribute="centerX" secondItem="rRG-Bd-DTk" secondAttribute="centerX" id="9C3-MT-urQ"/>
+                                <constraint firstItem="rRG-Bd-DTk" firstAttribute="centerX" secondItem="bqA-l3-4d8" secondAttribute="centerX" id="Ofq-8p-4JW"/>
+                                <constraint firstItem="vGX-y9-rrj" firstAttribute="top" secondItem="rRG-Bd-DTk" secondAttribute="bottom" constant="13" id="P1I-Nt-2UT"/>
+                            </constraints>
+                        </view>
+                        <view tag="-1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fr-8B-5p6">
+                            <rect key="frame" x="0.0" y="145" width="160" height="145"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布办公出租信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Q6-A8-kd7">
+                                    <rect key="frame" x="28" y="107" width="104" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aM2-P1-OSg">
+                                    <rect key="frame" x="45" y="24" width="70" height="70"/>
+                                    <state key="normal" image="办公出租-蓝色"/>
+                                    <state key="selected" image="办公出租-白色"/>
+                                    <connections>
+                                        <action selector="publishInformation:" destination="-1" eventType="touchUpInside" id="qnD-95-aPO"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="6Q6-A8-kd7" firstAttribute="top" secondItem="aM2-P1-OSg" secondAttribute="bottom" constant="13" id="Kn9-UK-ecQ"/>
+                                <constraint firstItem="6Q6-A8-kd7" firstAttribute="centerX" secondItem="aM2-P1-OSg" secondAttribute="centerX" id="YFo-21-0my"/>
+                                <constraint firstItem="aM2-P1-OSg" firstAttribute="centerY" secondItem="1Fr-8B-5p6" secondAttribute="centerY" constant="-13" id="sAC-Ug-rGQ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VnN-UE-cBO">
+                            <rect key="frame" x="160" y="145" width="160" height="145"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布办公求租信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JB-mW-AsX">
+                                    <rect key="frame" x="28" y="107" width="104" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhO-ZQ-YOi">
+                                    <rect key="frame" x="45" y="24" width="70" height="70"/>
+                                    <state key="normal" image="办公求租蓝色"/>
+                                    <state key="selected" image="办公求租白色"/>
+                                    <connections>
+                                        <action selector="publishInformation:" destination="-1" eventType="touchUpInside" id="IuB-om-iOY"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="4JB-mW-AsX" firstAttribute="centerX" secondItem="zhO-ZQ-YOi" secondAttribute="centerX" id="URX-mz-2D2"/>
+                                <constraint firstItem="4JB-mW-AsX" firstAttribute="top" secondItem="zhO-ZQ-YOi" secondAttribute="bottom" constant="13" id="ntc-8F-Yok"/>
+                                <constraint firstItem="zhO-ZQ-YOi" firstAttribute="centerY" secondItem="VnN-UE-cBO" secondAttribute="centerY" constant="-13" id="tvv-Dd-oxT"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.37254901959999998" green="0.87058823529999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="bqA-l3-4d8" firstAttribute="leading" secondItem="pfG-1C-2kA" secondAttribute="trailing" id="1Bn-T5-rxV"/>
+                        <constraint firstItem="bqA-l3-4d8" firstAttribute="height" secondItem="pfG-1C-2kA" secondAttribute="height" id="5NA-vM-rXm"/>
+                        <constraint firstItem="1Fr-8B-5p6" firstAttribute="width" secondItem="pfG-1C-2kA" secondAttribute="width" id="FY3-n8-QGU"/>
+                        <constraint firstItem="1Fr-8B-5p6" firstAttribute="leading" secondItem="WfP-C6-i5G" secondAttribute="leading" id="Gzy-43-vFP"/>
+                        <constraint firstItem="rRG-Bd-DTk" firstAttribute="centerY" secondItem="FN1-aP-DXT" secondAttribute="centerY" id="JdH-q4-Gpv"/>
+                        <constraint firstAttribute="trailing" secondItem="bqA-l3-4d8" secondAttribute="trailing" id="KDp-vs-fng"/>
+                        <constraint firstAttribute="bottom" secondItem="1Fr-8B-5p6" secondAttribute="bottom" id="KgI-ka-htZ"/>
+                        <constraint firstItem="VnN-UE-cBO" firstAttribute="width" secondItem="pfG-1C-2kA" secondAttribute="width" id="LiB-bd-V4g"/>
+                        <constraint firstAttribute="trailing" secondItem="VnN-UE-cBO" secondAttribute="trailing" id="OUM-Jc-iF3"/>
+                        <constraint firstItem="1Fr-8B-5p6" firstAttribute="top" secondItem="pfG-1C-2kA" secondAttribute="bottom" id="QnU-X9-sak"/>
+                        <constraint firstItem="VnN-UE-cBO" firstAttribute="leading" secondItem="1Fr-8B-5p6" secondAttribute="trailing" id="Qne-hk-0TR"/>
+                        <constraint firstItem="aM2-P1-OSg" firstAttribute="centerX" secondItem="FN1-aP-DXT" secondAttribute="centerX" id="Scw-HS-t4h"/>
+                        <constraint firstAttribute="height" constant="290" id="SiO-Qa-fXR"/>
+                        <constraint firstItem="bqA-l3-4d8" firstAttribute="top" secondItem="WfP-C6-i5G" secondAttribute="top" id="USp-Db-fWw"/>
+                        <constraint firstItem="bqA-l3-4d8" firstAttribute="width" secondItem="pfG-1C-2kA" secondAttribute="width" id="cem-mL-sg4"/>
+                        <constraint firstItem="VnN-UE-cBO" firstAttribute="height" secondItem="pfG-1C-2kA" secondAttribute="height" id="i4f-UH-7rg"/>
+                        <constraint firstItem="VnN-UE-cBO" firstAttribute="top" secondItem="bqA-l3-4d8" secondAttribute="bottom" id="i6Q-FU-pbh"/>
+                        <constraint firstItem="zhO-ZQ-YOi" firstAttribute="centerX" secondItem="bqA-l3-4d8" secondAttribute="centerX" id="jHV-wa-lsS"/>
+                        <constraint firstItem="pfG-1C-2kA" firstAttribute="leading" secondItem="WfP-C6-i5G" secondAttribute="leading" id="o3u-ok-5uN"/>
+                        <constraint firstItem="1Fr-8B-5p6" firstAttribute="height" secondItem="pfG-1C-2kA" secondAttribute="height" id="tex-pB-CR9"/>
+                        <constraint firstAttribute="bottom" secondItem="VnN-UE-cBO" secondAttribute="bottom" id="vzD-pl-duR"/>
+                        <constraint firstItem="pfG-1C-2kA" firstAttribute="top" secondItem="WfP-C6-i5G" secondAttribute="top" id="wIc-0y-KL8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="WfP-C6-i5G" secondAttribute="trailing" id="2P2-XZ-uIb"/>
+                <constraint firstItem="WfP-C6-i5G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="114" id="6dt-5D-WgY"/>
+                <constraint firstItem="WfP-C6-i5G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fCF-oF-oAY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="办公出租-白色" width="70" height="70"/>
+        <image name="办公出租-蓝色" width="70" height="70"/>
+        <image name="办公求租白色" width="70" height="70"/>
+        <image name="办公求租蓝色" width="70" height="70"/>
+        <image name="融资需求-白色" width="70" height="70"/>
+        <image name="融资需求-蓝色" width="70" height="70"/>
+        <image name="金融产品白色" width="70" height="70"/>
+        <image name="金融产品蓝色" width="70" height="70"/>
+    </resources>
+</document>

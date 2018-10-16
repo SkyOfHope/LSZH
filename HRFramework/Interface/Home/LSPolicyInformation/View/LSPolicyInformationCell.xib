@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="78" id="KGk-i7-Jjw" customClass="LSPolicyInformationCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Y0-dm-KXI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="国家文化产业创新实验区产业集群发展态势逐步显现国家文化产业创新实验" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRt-GE-42q">
+                                <rect key="frame" x="10" y="10" width="300" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="浏览人数" translatesAutoresizingMaskIntoConstraints="NO" id="k2B-qS-c1C">
+                                <rect key="frame" x="10" y="59" width="12" height="9"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="时间" translatesAutoresizingMaskIntoConstraints="NO" id="SEK-nK-axL">
+                                <rect key="frame" x="229" y="58" width="11" height="11"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2015-05-05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKU-ko-ssq">
+                                <rect key="frame" x="242" y="57" width="64" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viX-g1-i3m">
+                                <rect key="frame" x="10" y="81" width="300" height="1"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="PtT-vt-V4v"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="566" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3v-Ko-mzn">
+                                <rect key="frame" x="25" y="57" width="22" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="k2B-qS-c1C" secondAttribute="bottom" constant="10" id="2Mt-lh-Wyz"/>
+                            <constraint firstItem="M3v-Ko-mzn" firstAttribute="centerY" secondItem="k2B-qS-c1C" secondAttribute="centerY" id="4L8-0R-cf3"/>
+                            <constraint firstItem="viX-g1-i3m" firstAttribute="leading" secondItem="0Y0-dm-KXI" secondAttribute="leading" constant="10" id="6aH-fM-22j"/>
+                            <constraint firstItem="CRt-GE-42q" firstAttribute="top" secondItem="0Y0-dm-KXI" secondAttribute="top" constant="10" id="6xd-up-d9P"/>
+                            <constraint firstAttribute="trailing" secondItem="OKU-ko-ssq" secondAttribute="trailing" constant="10" id="7kU-bl-Ffx"/>
+                            <constraint firstItem="CRt-GE-42q" firstAttribute="leading" secondItem="0Y0-dm-KXI" secondAttribute="leading" constant="10" id="DTE-4x-SBB"/>
+                            <constraint firstAttribute="trailing" secondItem="viX-g1-i3m" secondAttribute="trailing" constant="10" id="IDY-IG-Otc"/>
+                            <constraint firstItem="k2B-qS-c1C" firstAttribute="top" secondItem="CRt-GE-42q" secondAttribute="bottom" constant="15" id="IED-Eu-Dk6"/>
+                            <constraint firstItem="viX-g1-i3m" firstAttribute="top" secondItem="M3v-Ko-mzn" secondAttribute="bottom" constant="10" id="IQh-Zy-1zC"/>
+                            <constraint firstItem="M3v-Ko-mzn" firstAttribute="top" secondItem="CRt-GE-42q" secondAttribute="bottom" constant="12.5" id="IgQ-VB-i7L"/>
+                            <constraint firstItem="OKU-ko-ssq" firstAttribute="leading" secondItem="SEK-nK-axL" secondAttribute="trailing" constant="2" id="d5R-kv-VhC"/>
+                            <constraint firstAttribute="trailing" secondItem="SEK-nK-axL" secondAttribute="trailing" constant="80" id="fH0-BX-vxv"/>
+                            <constraint firstAttribute="trailing" secondItem="CRt-GE-42q" secondAttribute="trailing" constant="10" id="mUE-V4-Ks6"/>
+                            <constraint firstAttribute="bottom" secondItem="viX-g1-i3m" secondAttribute="bottom" id="pvV-z1-msX"/>
+                            <constraint firstItem="OKU-ko-ssq" firstAttribute="centerY" secondItem="SEK-nK-axL" secondAttribute="centerY" id="r57-bg-voU"/>
+                            <constraint firstItem="M3v-Ko-mzn" firstAttribute="leading" secondItem="k2B-qS-c1C" secondAttribute="trailing" constant="3" id="rGH-9Q-uAT"/>
+                            <constraint firstItem="k2B-qS-c1C" firstAttribute="leading" secondItem="0Y0-dm-KXI" secondAttribute="leading" constant="10" id="rRt-Me-anw"/>
+                            <constraint firstItem="SEK-nK-axL" firstAttribute="centerY" secondItem="k2B-qS-c1C" secondAttribute="centerY" id="uWC-bb-bbo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2Mt-lh-Wyz"/>
+                                <exclude reference="IED-Eu-Dk6"/>
+                                <exclude reference="7kU-bl-Ffx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="0Y0-dm-KXI" secondAttribute="bottom" id="48B-y7-qVL"/>
+                    <constraint firstItem="0Y0-dm-KXI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="A1U-yC-3hw"/>
+                    <constraint firstItem="0Y0-dm-KXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="JDu-7o-GcW"/>
+                    <constraint firstAttribute="trailing" secondItem="0Y0-dm-KXI" secondAttribute="trailing" id="WPJ-pu-hLr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="publishdateLabel" destination="OKU-ko-ssq" id="13T-DA-UCy"/>
+                <outlet property="titleLabel" destination="CRt-GE-42q" id="BD1-ko-tg9"/>
+                <outlet property="viewCountLabel" destination="M3v-Ko-mzn" id="xww-s4-MrO"/>
+            </connections>
+            <point key="canvasLocation" x="191" y="304"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="时间" width="11" height="11"/>
+        <image name="浏览人数" width="12" height="9"/>
+    </resources>
+</document>

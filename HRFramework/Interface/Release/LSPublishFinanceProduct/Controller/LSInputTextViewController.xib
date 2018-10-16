@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSInputTextViewController">
+            <connections>
+                <outlet property="completeBtn" destination="EXe-oE-QT8" id="Lfw-C8-wWQ"/>
+                <outlet property="contentTextView" destination="2YN-iS-LYS" id="Xvx-GV-wCf"/>
+                <outlet property="leftWordLabel" destination="aIz-L5-1EN" id="BED-hZ-jBv"/>
+                <outlet property="placeWordLabel" destination="who-H2-duq" id="e7f-Df-I2X"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2YN-iS-LYS">
+                    <rect key="frame" x="0.0" y="80" width="320" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="SHo-Gk-xoU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="who-H2-duq">
+                    <rect key="frame" x="10" y="90" width="49" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/500字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIz-L5-1EN">
+                    <rect key="frame" x="253" y="252" width="57" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXe-oE-QT8">
+                    <rect key="frame" x="20" y="444" width="280" height="44"/>
+                    <color key="backgroundColor" red="0.1960784314" green="0.58823529409999997" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="0OM-ca-VdP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="completeBtn:" destination="-1" eventType="touchUpInside" id="VHZ-rq-Sue"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EXe-oE-QT8" secondAttribute="trailing" constant="20" id="AoY-3W-IZ8"/>
+                <constraint firstItem="who-H2-duq" firstAttribute="leading" secondItem="2YN-iS-LYS" secondAttribute="leading" constant="10" id="IVz-j3-k30"/>
+                <constraint firstItem="2YN-iS-LYS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="P3n-CO-Whs"/>
+                <constraint firstItem="aIz-L5-1EN" firstAttribute="trailing" secondItem="2YN-iS-LYS" secondAttribute="trailing" constant="-10" id="b4U-s9-giP"/>
+                <constraint firstItem="2YN-iS-LYS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="dKR-cn-1o5"/>
+                <constraint firstAttribute="trailing" secondItem="2YN-iS-LYS" secondAttribute="trailing" id="fAe-eZ-ETt"/>
+                <constraint firstItem="aIz-L5-1EN" firstAttribute="bottom" secondItem="2YN-iS-LYS" secondAttribute="bottom" constant="-10" id="iMx-cf-snF"/>
+                <constraint firstAttribute="bottom" secondItem="EXe-oE-QT8" secondAttribute="bottom" constant="80" id="jR0-bV-k8F"/>
+                <constraint firstItem="EXe-oE-QT8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="rQs-27-yxi"/>
+                <constraint firstItem="who-H2-duq" firstAttribute="top" secondItem="2YN-iS-LYS" secondAttribute="top" constant="10" id="wcY-fY-rEg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

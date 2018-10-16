@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LSHomeTitleSearchView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClH-jG-Z7r">
+                    <rect key="frame" x="10" y="7" width="300" height="30"/>
+                    <subviews>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASZ-ye-F6C" userLabel="搜索">
+                            <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="Ij4-E1-8YI"/>
+                            </constraints>
+                            <state key="normal" image="搜索-蓝色"/>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pnt-Gn-8yw" userLabel="line">
+                            <rect key="frame" x="35" y="5" width="1" height="20"/>
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="aX5-Xf-zbx"/>
+                                <constraint firstAttribute="width" constant="1" id="g4d-pm-s6C"/>
+                                <constraint firstAttribute="height" constant="1" id="xDF-Wh-d2L"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="xDF-Wh-d2L"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入您要搜索的内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSk-Zv-tKj">
+                            <rect key="frame" x="40" y="0.0" width="260" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2SK-gK-B3C"/>
+                        <constraint firstItem="fSk-Zv-tKj" firstAttribute="top" secondItem="ClH-jG-Z7r" secondAttribute="top" id="4c6-5r-ipI"/>
+                        <constraint firstAttribute="bottom" secondItem="fSk-Zv-tKj" secondAttribute="bottom" id="8Px-Kx-gCw"/>
+                        <constraint firstItem="pnt-Gn-8yw" firstAttribute="centerY" secondItem="ClH-jG-Z7r" secondAttribute="centerY" id="AHe-rA-Hxe"/>
+                        <constraint firstItem="ASZ-ye-F6C" firstAttribute="top" secondItem="ClH-jG-Z7r" secondAttribute="top" id="CkE-xh-kMM"/>
+                        <constraint firstAttribute="bottom" secondItem="ASZ-ye-F6C" secondAttribute="bottom" id="dbX-ce-7Ch"/>
+                        <constraint firstItem="fSk-Zv-tKj" firstAttribute="leading" secondItem="pnt-Gn-8yw" secondAttribute="trailing" constant="4" id="efg-du-tXR"/>
+                        <constraint firstAttribute="trailing" secondItem="fSk-Zv-tKj" secondAttribute="trailing" id="ivB-4h-wf6"/>
+                        <constraint firstItem="pnt-Gn-8yw" firstAttribute="leading" secondItem="ASZ-ye-F6C" secondAttribute="trailing" id="nja-gg-XtC"/>
+                        <constraint firstItem="pnt-Gn-8yw" firstAttribute="leading" secondItem="ASZ-ye-F6C" secondAttribute="trailing" id="nwm-Mu-Toz"/>
+                        <constraint firstItem="ASZ-ye-F6C" firstAttribute="leading" secondItem="ClH-jG-Z7r" secondAttribute="leading" id="wCR-Qd-VoE"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="nja-gg-XtC"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ClH-jG-Z7r" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3W4-ex-hCl"/>
+                <constraint firstItem="ClH-jG-Z7r" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SQz-zH-PMO"/>
+                <constraint firstItem="ClH-jG-Z7r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="TAB-B2-mfk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchBackView" destination="ClH-jG-Z7r" id="sGZ-lp-ReK"/>
+            </connections>
+            <point key="canvasLocation" x="241" y="207"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="搜索-蓝色" width="16" height="16"/>
+    </resources>
+</document>

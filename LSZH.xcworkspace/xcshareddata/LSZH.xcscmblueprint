@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e298843c-091d-114d-8f80-e63983718e1b++9870",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+    "e298843c-091d-114d-8f80-e63983718e1b++9870" : {
+
+
+    "e298843c-091d-114d-8f80-e63983718e1b++9870" : {
+
+
+    "e298843c-091d-114d-8f80-e63983718e1b++8035" : {
+
+
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+
+    "e298843c-091d-114d-8f80-e63983718e1b++9870" : 0
+
+
+    "e298843c-091d-114d-8f80-e63983718e1b++9870" : 0
+
+    "e298843c-091d-114d-8f80-e63983718e1b++8035" : 0
+
+
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "844BFC82-26E6-4012-B83F-D8609648D197",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+
+    "e298843c-091d-114d-8f80-e63983718e1b++9870" : "Code\/"
+
+
+    "e298843c-091d-114d-8f80-e63983718e1b++9870" : "Code\/"
+
+    "e298843c-091d-114d-8f80-e63983718e1b++8035" : "LSZH\/"
+
+
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LSZH",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LSZH\/LSZH.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e298843c-091d-114d-8f80-e63983718e1b++9870"
+
+
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e298843c-091d-114d-8f80-e63983718e1b++9870"
+
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e298843c-091d-114d-8f80-e63983718e1b++8035"
+
+
+    }
+  ]
+}

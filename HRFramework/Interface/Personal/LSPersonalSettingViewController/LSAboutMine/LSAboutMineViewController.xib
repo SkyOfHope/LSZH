@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSAboutMineViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBG-zX-Dtk">
+                    <rect key="frame" x="10" y="277" width="300" height="171"/>
+                    <string key="text">、阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三阿斯顿飞规划局阿斯顿飞规划局看看了了框架和规范的三</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="个人中心首页底图" translatesAutoresizingMaskIntoConstraints="NO" id="d6q-kG-SrA">
+                    <rect key="frame" x="10" y="74" width="300" height="188"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="188" id="FoX-F4-rsz"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aBG-zX-Dtk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="5gQ-Vg-srf"/>
+                <constraint firstItem="aBG-zX-Dtk" firstAttribute="top" secondItem="d6q-kG-SrA" secondAttribute="bottom" constant="15" id="h5D-DA-vqn"/>
+                <constraint firstItem="d6q-kG-SrA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="i7x-e2-bXS"/>
+                <constraint firstAttribute="trailing" secondItem="d6q-kG-SrA" secondAttribute="trailing" constant="10" id="sU4-jW-HQe"/>
+                <constraint firstItem="d6q-kG-SrA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="t94-9X-3Qg"/>
+                <constraint firstAttribute="trailing" secondItem="aBG-zX-Dtk" secondAttribute="trailing" constant="10" id="xpU-jh-RWw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="253" y="251"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="个人中心首页底图" width="320" height="149"/>
+    </resources>
+</document>

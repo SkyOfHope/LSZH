@@ -1,0 +1,29 @@
+
+
+#ifndef LSZH_pch
+#define LSZH_pch
+
+#import "HRFramework.pch"
+
+#pragma mark - LSZH Color
+#define COLOR_333333 RGB_0X(0X333333)
+#define COLOR_4C4C4C RGB_0X(0X4C4C4C)
+#define COLOR_666666 RGB_0X(0X666666)
+#define COLOR_808080 RGB_0X(0X808080)
+#define COLOR_999999 RGB_0X(0X999999)
+#define COLOR_CCCCCC RGB_0X(0XCCCCCC)
+
+#define COLOR_3296ED RGB_0X(0X3296ED)
+
+#define COLOR_FFAE00 RGB_0X(0XFFAE00)
+
+#define COLOR_D40000 RGB_0X(0XD40000)
+
+
+
+#pragma mark - font
+
+
+
+
+#endif /* LSZH_pch */

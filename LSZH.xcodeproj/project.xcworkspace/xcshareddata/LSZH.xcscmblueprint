@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e298843c-091d-114d-8f80-e63983718e1b++2127",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e298843c-091d-114d-8f80-e63983718e1b++2127" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e298843c-091d-114d-8f80-e63983718e1b++2127" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6212791D-3781-4CBC-8B08-9C27C5570C47",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e298843c-091d-114d-8f80-e63983718e1b++2127" : "lansezhihui\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LSZH",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Code\/LSZH\/LSZH.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e298843c-091d-114d-8f80-e63983718e1b++2127"
+    }
+  ]
+}

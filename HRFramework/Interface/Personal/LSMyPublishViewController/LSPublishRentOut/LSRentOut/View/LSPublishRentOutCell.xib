@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LSPublishRentOutCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7py-nO-gUa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWF-Ex-6nX">
+                                <rect key="frame" x="0.0" y="12" width="2" height="20"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="Qep-zH-4Yq"/>
+                                    <constraint firstAttribute="height" constant="20" id="jjR-gD-9qb"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLN-1g-XmS">
+                                <rect key="frame" x="10" y="13" width="60" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="下拉箭头" translatesAutoresizingMaskIntoConstraints="NO" id="nVj-dA-fpu">
+                                <rect key="frame" x="297" y="19" width="13" height="7"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyx-64-pit">
+                                <rect key="frame" x="0.0" y="43.5" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.85882352941176465" green="0.85882352941176465" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ola-cZ-sB5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hyx-64-pit" secondAttribute="bottom" id="3dR-OZ-8s9"/>
+                            <constraint firstItem="nVj-dA-fpu" firstAttribute="centerY" secondItem="7py-nO-gUa" secondAttribute="centerY" id="5ZD-by-0Ij"/>
+                            <constraint firstItem="HWF-Ex-6nX" firstAttribute="leading" secondItem="7py-nO-gUa" secondAttribute="leading" id="Cro-hQ-E3G"/>
+                            <constraint firstItem="QLN-1g-XmS" firstAttribute="centerY" secondItem="7py-nO-gUa" secondAttribute="centerY" id="FT4-KH-HWB"/>
+                            <constraint firstAttribute="trailing" secondItem="nVj-dA-fpu" secondAttribute="trailing" constant="10" id="QIa-E1-uJu"/>
+                            <constraint firstItem="QLN-1g-XmS" firstAttribute="leading" secondItem="HWF-Ex-6nX" secondAttribute="trailing" constant="8" id="SJt-VV-RQn"/>
+                            <constraint firstItem="hyx-64-pit" firstAttribute="leading" secondItem="7py-nO-gUa" secondAttribute="leading" id="mmC-oy-IDO"/>
+                            <constraint firstItem="HWF-Ex-6nX" firstAttribute="centerY" secondItem="7py-nO-gUa" secondAttribute="centerY" id="pho-dY-cj8"/>
+                            <constraint firstAttribute="trailing" secondItem="hyx-64-pit" secondAttribute="trailing" id="pym-dj-tg8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7py-nO-gUa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="A1p-nC-k7T"/>
+                    <constraint firstAttribute="bottom" secondItem="7py-nO-gUa" secondAttribute="bottom" id="HzC-dv-2OV"/>
+                    <constraint firstItem="7py-nO-gUa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rgb-xn-SGo"/>
+                    <constraint firstAttribute="trailing" secondItem="7py-nO-gUa" secondAttribute="trailing" id="vcB-Xs-zxh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftLabel" destination="QLN-1g-XmS" id="xGO-bN-kr0"/>
+            </connections>
+            <point key="canvasLocation" x="225" y="185.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="下拉箭头" width="13" height="7"/>
+    </resources>
+</document>

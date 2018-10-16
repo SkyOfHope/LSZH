@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSOfficeRentDetailViewController">
+            <connections>
+                <outlet property="collection" destination="kGR-1e-JeN" id="xLd-Aa-VeL"/>
+                <outlet property="lowView" destination="C65-Up-4Fs" id="jJC-Sg-3cl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yuetan" destination="aDr-d1-XS6" id="cx6-va-BXS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C65-Up-4Fs">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDr-d1-XS6">
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="30" maxY="-9"/>
+                            <inset key="imageEdgeInsets" minX="-4" minY="-6" maxX="5" maxY="6"/>
+                            <state key="normal" title="约谈" image="约谈">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="appointmentBtn:" destination="-1" eventType="touchUpInside" id="0xN-Nl-pL2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGR-1e-JeN">
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="30" maxY="-9"/>
+                            <inset key="imageEdgeInsets" minX="5" minY="-16" maxX="2" maxY="-5"/>
+                            <state key="normal" title="收藏10次" image="未收藏">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="已收藏"/>
+                            <connections>
+                                <action selector="collectionAction:" destination="-1" eventType="touchUpInside" id="ldr-f6-IHs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1960784314" green="0.58823529409999997" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="aDr-d1-XS6" firstAttribute="leading" secondItem="C65-Up-4Fs" secondAttribute="leading" id="Gme-jb-hjD"/>
+                        <constraint firstAttribute="trailing" secondItem="kGR-1e-JeN" secondAttribute="trailing" id="MZp-kT-jTE"/>
+                        <constraint firstAttribute="bottom" secondItem="kGR-1e-JeN" secondAttribute="bottom" id="PBU-yG-gU5"/>
+                        <constraint firstItem="kGR-1e-JeN" firstAttribute="top" secondItem="C65-Up-4Fs" secondAttribute="top" id="TnO-64-Aol"/>
+                        <constraint firstAttribute="bottom" secondItem="aDr-d1-XS6" secondAttribute="bottom" id="VAr-Ev-O4O"/>
+                        <constraint firstItem="kGR-1e-JeN" firstAttribute="leading" secondItem="aDr-d1-XS6" secondAttribute="trailing" id="XWc-EI-rtJ"/>
+                        <constraint firstItem="aDr-d1-XS6" firstAttribute="width" secondItem="kGR-1e-JeN" secondAttribute="width" id="dTV-gS-73Y"/>
+                        <constraint firstItem="aDr-d1-XS6" firstAttribute="top" secondItem="C65-Up-4Fs" secondAttribute="top" id="k9X-J3-ZTT"/>
+                        <constraint firstAttribute="height" constant="49" id="otX-7q-adj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="C65-Up-4Fs" secondAttribute="trailing" id="MOv-cv-Z6K"/>
+                <constraint firstAttribute="bottom" secondItem="C65-Up-4Fs" secondAttribute="bottom" id="SsJ-sE-lf7"/>
+                <constraint firstItem="C65-Up-4Fs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="v9w-Df-caS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="122" y="148"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="已收藏" width="21" height="20"/>
+        <image name="未收藏" width="21" height="20"/>
+        <image name="约谈" width="21" height="19"/>
+    </resources>
+</document>
